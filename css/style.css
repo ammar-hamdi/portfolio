@@ -1,0 +1,121 @@
+/* Start Main Rulez */
+
+body {
+    background-color: #888;
+    height: 4000px
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+ 
+ /* End Main Rulez */
+
+/* Start Header */
+
+.header .slider {
+    background-color: #eee;
+    height: 400px;
+}
+
+.header .navbar {
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden
+    
+}
+
+.header .navbar h2 {float: left;text-transform: uppercase}
+
+.header .navbar h2 span {color: #2ecc71}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+}
+/* Start Header */
+
+/* start features */
+
+.features {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.features .feat {
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+    background-color: #DDD;
+}
+
+
+.features .feat h2{text-transform: uppercase;
+color: red}
+
+/* End features */
+
+/* start about me */
+
+.about-me .h2 p{
+    background-color: #f2f2f2;
+    overflow: hidden;
+    float: left; 
+    padding-left: 30%
+}
+
+.about-me .image {
+    padding-right: 50px;
+    float: left;
+    width: 40%;
+}
+
+.about-me .image img{
+    width: 100%;
+    float: left;
+    
+} 
+
+    
+.info  {
+    float: left;
+    width: 25.25252525%;
+    margin-bottom: 20px;
+    
+}
+
+
+
+/* end about me */
+
+
+@media only screen and (max-width: 600px) {
+  
+    .features .feat {
+    clear: both;
+    width: 100%;
+}
+    
+    /* start my skills */
+    
+    
+.skills  {
+
+   color: aqua
+}
+    
+    
+    
+    
+
+    /* end my skills */
+
